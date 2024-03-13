@@ -1,0 +1,47 @@
+body{
+    background-color: aqua;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    flex-direction: column;
+}
+.heading{
+    width: 100vw;
+    height: 10vh;
+    color: rgb(14, 86, 86);
+    font-weight: bold;
+    text-decoration: underline;
+    font-size:10vmin;
+}
+#msg{
+    width: 100vw;
+    height: 10vh;
+    font-weight: bold;
+    font-size:10vmin;
+}
+.game{
+    height: 70vmin;
+    width: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+button{
+    background-color: aquamarine;
+    font-size: 10vmin;
+    color: rgb(17, 125, 125);
+    height:20vmin;
+    width:20vmin;
+}
+#resetbtn{
+    width: 100vw;
+    height: 10vh;
+    color: rgb(9, 79, 79);
+    font-size: 6vmin;
+    border: solid;
+}
